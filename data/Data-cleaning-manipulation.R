@@ -278,3 +278,5 @@ FKNMS = subset(FloridaOnly, Location != "Biscayne") #247
 ###subset by time of day
 midday_filter <- subset(lionfish_removals, TOD !="Crepuscular")
 crepuscular_filter <- subset(lionfish_removals, TOD !="midday")
+
+# Editing this file
