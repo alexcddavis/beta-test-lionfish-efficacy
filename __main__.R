@@ -31,3 +31,13 @@ source(here('./code/model-fitting.R'))
 
 rm(list = ls())
 source(here('./code/vizualization.R'))
+
+
+####
+#sample script on how to stop your code running with an error
+x=3
+
+if(x == 2) {
+  stop("you dummo")
+}
+print(x)
