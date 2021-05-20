@@ -6,6 +6,7 @@ library(here)
 
 setosa_subset= read_csv(here('./output/setosa_subset_data.csv'))
 new_data = read_csv(here('./output/new_data_for_prediction.csv'))
+
 # make and save a simple plot
 simple_fig = ggplot(data = setosa_subset) +
   geom_point(aes(x = Sepal.Length, y = Petal.Width)) +
