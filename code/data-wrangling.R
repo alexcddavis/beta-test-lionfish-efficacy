@@ -1,7 +1,7 @@
 ### wrangles and cleans data
 # set-up =======================================================================
 
-library(tidyverse)
+library(ggplot2)
 library(here)
 data = iris
 
