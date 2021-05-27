@@ -1,7 +1,7 @@
 ### model fit and check
 # set-up =======================================================================
 
-library(tidyverse)
+library(ggplot2)
 library(here)
 
 ##3read file in from data wrangling
