@@ -12,7 +12,7 @@
 #Set up===========================
 ### add here package to preserve relative paths
 library(here)
-library(tidyverse)
+library(ggplot2)
 
 ### Naming conventions ###
 
