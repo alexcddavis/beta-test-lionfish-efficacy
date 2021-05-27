@@ -8,7 +8,7 @@ trial for uploading code associated with lionfish efficacy paper
 5. DOI/ release number for repo --- repositories are stand alone products that should be cited on their own
 
 
-Launch this repo in Binder!! [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/davialex/Beta-test-lionfish-efficacy/master?urlpath=rstudio)
+Dont have R or Rstudio? Launch this repo in Binder!! [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/davialex/Beta-test-lionfish-efficacy/master?urlpath=rstudio)
 
 
 Key elements needed:
