@@ -1,7 +1,7 @@
 ## data vizualization
 # set-up =======================================================================
 
-library(tidyverse)
+library(ggplot2)
 library(here)
 
 setosa_subset= read_csv(here('./output/setosa_subset_data.csv'))
