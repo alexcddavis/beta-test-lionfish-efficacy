@@ -1,0 +1,11 @@
+version: "3.5"
+services:
+  beta-test-lionfish-efficacy:
+    build:
+      context: .
+    volumes:
+      - .:/main
+  
+#line 3 tells us what image we're actually building i.e. the name of our repo
+#so here, hte volumes: .:/main will read the input file and write out 
+#expanded file - mapping the folder (x) to the main folder

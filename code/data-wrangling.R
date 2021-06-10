@@ -2,7 +2,8 @@
 # set-up =======================================================================
 
 library(ggplot2)
-library(here)
+library(readr)
+
 data = iris
 
 # make function to subset by species 
@@ -28,4 +29,4 @@ species_subset = function(data, species) {
 setosa_subset = species_subset(data, "setosa")
 
 #write out setosa_subset
-write_csv(setosa_subset, here('./output/setosa_subset_data.csv'))
+write_csv(setosa_subset, './output/setosa_subset_data.csv')
