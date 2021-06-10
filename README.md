@@ -1,4 +1,4 @@
-# Beta-test-lionfish-efficacy
+# beta-test-lionfish-efficacy
 trial for uploading code associated with lionfish efficacy paper
 
 1. description of the repository project, link to the paper etc
